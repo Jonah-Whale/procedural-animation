@@ -13,5 +13,6 @@ public class SpiderMovement : MonoBehaviour
         // Turn with A/D keys
         float turn = Input.GetAxis("Horizontal");
         transform.Rotate(Vector3.up, turn * turnSpeed * Time.deltaTime);
+        Debug.Log("My dad is the best ever");
     }
 }
